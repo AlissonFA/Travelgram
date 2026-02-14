@@ -28,3 +28,37 @@ body {
     background-color: var(--background-color);
 }
 
+nav {
+    display: flex; /* elemento ao lado do outro */
+    justify-content: space-between; /* espaçamento entre os elementos */
+    align-items: center; /* centralização no eixo main */
+
+    line-height: 0; /* reduz a altura da linha do espaçamento */
+    padding-block: 20px; /* olha para o eixo y, sendo o espaço de cima e de baixo */
+}
+
+a {
+    text-decoration: none; /* tira a underline */
+    color: inherit; /* inherit: cor herdada; ao fazer isso ele retira a cor azul padrão do navegador e busca a do pai dele (que seria o body) */
+}
+
+a:hover { /* hover: quando passar o mouse em cima, tal coisa vai acontecer */
+    color: var(--brand-color);
+    text-decoration: underline; /* adiciona a underline */
+}
+
+nav ul {
+    list-style: none; /* tira os pontinhos da lista */
+    display: flex;
+    align-items: center;
+    gap: 20px; /* espaço */
+
+    padding-block: 8px; /* cima e baixo */
+}
+
+nav ul li:last-child img { /* "li:last child": ultimo filho da li */
+    width: 40px;
+    height: 40px;
+    object-fit: cover; /* encaixe do objeto; "cover": cobrir todo espaço de 40 por 40 */
+    border-radius: 50%; /* arredondamento da borda */
+}
