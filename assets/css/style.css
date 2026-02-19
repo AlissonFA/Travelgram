@@ -129,3 +129,13 @@ main img {
     height: 286px;
     object-fit: cover; /* para caso não seja um quadrado perfeito */
 }
+
+footer {
+    display: flex;
+    gap: 24px;
+    padding-block: 24px;
+}
+
+footer span:nth-child(1) {
+    margin-right: auto;
+}
