@@ -72,3 +72,18 @@ nav ul li:last-child img { /* "li:last child": ultimo filho da li */
     object-fit: cover; /* encaixe do objeto; "cover": cobrir todo espaço de 40 por 40 */
     border-radius: 50%; /* arredondamento da borda */
 }
+
+#profile {
+    display: flex;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    gap: 32px;
+}
+
+#text {
+    padding-bottom: 8px;
+}
+
+div ul {
+    list-style: none;
+}
