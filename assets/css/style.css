@@ -73,17 +73,46 @@ nav ul li:last-child img { /* "li:last child": ultimo filho da li */
     border-radius: 50%; /* arredondamento da borda */
 }
 
+header {
+    padding-block: 32px;
+
+    font: var(--text-md);
+}
+
+header .container { /* isso aqui é pra colocar o profile junto com info */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #profile {
     display: flex;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    gap: 32px;
+    gap: 32px; /* esse é o espaçamento entre a imagem e os textos */
+    align-items: center;
 }
 
-#text {
-    padding-bottom: 8px;
+#profile > div {
+    max-width: 384px;
 }
 
-div ul {
+#profile h1 {
+    font: var(--text-lg);
+    color: var(--text-color-primary);
+    margin-bottom: 8px;
+}
+
+#info {
     list-style: none;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* o espaçamento que tem entre cada info */
+
+    width: 280px;
+}
+
+#info li {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* espaçamento entre icone e info */
 }
