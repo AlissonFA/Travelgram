@@ -1,35 +1,40 @@
 <div align="center">
-  <img src="./assets/capa-readme.png" alt="Demonstração da tela inicial do projeto Travelgram">
+  <img src="./assets/preview.png" alt="Demonstração da tela inicial do projeto Travelgram">
 </div>
 
 # Travelgram 🌍✈️
 
-Uma página web de perfil e galeria de fotos inspirada em redes sociais, feita para amantes de viagens compartilharem seus registros pelo mundo. O layout apresenta um cabeçalho com informações do viajante e um mural em grade para exibir as fotografias.
+Uma página web de perfil e galeria de fotos inspirada em redes sociais, feita para amantes de viagens compartilharem seus registros pelo mundo. 
 
-## 🛠️ Tecnologias e Técnicas Utilizadas
+O objetivo principal foi praticar a estruturação visual e alinhamento a partir de um design de referência.
 
-Este projeto foi construído puramente com tecnologias fundamentais do Front-end:
+## 🛠 Tecnologias Utilizadas
 
-* **HTML5:** Estruturação semântica do conteúdo usando tags como `<nav>`, `<header>`, `<main>` e `<footer>`.
-* **CSS3:** Estilização visual detalhada, com foco em:
-  * **Flexbox:** Utilizado para alinhar os itens do menu, organizar as informações laterais do perfil e criar a grade responsiva para as 12 fotos da galeria principal.
-  * **Variáveis CSS (`:root`):** Implementadas para gerenciar e padronizar as cores da marca (como o destaque `#EF5F4C`) e a tipografia.
-  * **Efeitos de Hover:** Interatividade visual ao passar o mouse sobre os links do menu.
-* **Google Fonts:** Aplicação da família tipográfica "Poppins" para um design mais limpo e moderno.
+* **HTML5 Semântico:** Estruturação correta do conteúdo (`nav`, `header`, `main`, `footer`) para garantir melhor acessibilidade.
+* **CSS3:** Estilização visual detalhada e uso de variáveis (`:root`) para padronizar as cores e fontes do projeto.
+* **Flexbox:** Utilizado para o alinhamento dos itens do menu, organização do perfil da usuária e criação da grade responsiva para as 12 fotos da galeria principal.
+* **Git & GitHub:** Versionamento de código e deploy.
 
-## 🚀 Como abrir o projeto
+## 🚀 Destaques Técnicos & Aprendizados
 
-Você tem duas formas de explorar esse projeto:
+Durante o desenvolvimento, apliquei soluções para desafios de layout:
 
-**1. Demonstração ao Vivo (Mais prático):**
-Quer ver o projeto funcionando agora mesmo, sem precisar baixar nenhum arquivo? Acesse o link abaixo:
-👉 **[Visitar o site Travelgram](https://alissonfa.github.io/Travelgram/)**
+1. **Variáveis CSS:** Uso do `:root` para armazenar a cor principal (`#EF5F4C`), cores de texto e fontes, facilitando a manutenção do código.
+2. **Efeitos de Transição:** Criação de interatividade no menu superior utilizando o pseudo-elemento `:hover`.
+3. **Imagens Responsivas:** Aplicação da propriedade `object-fit: cover` nas imagens da galeria e do perfil para garantir que elas não fiquem esticadas ou achatadas, mantendo o aspecto perfeito.
 
-**2. No seu computador (Para explorar os códigos):**
-Caso você queira abrir o projeto localmente na sua máquina:
-* Faça o download dos arquivos para o seu computador.
-* Certifique-se de que a estrutura de pastas está correta (o arquivo principal `index.html` solto na pasta principal e a pasta `./assets/` com os ícones e imagens).
-* Dê um duplo clique no arquivo `index.html`. O site abrirá automaticamente no seu navegador de internet padrão!
+## 📂 Como visualizar
+
+Você pode acessar o projeto online ou o design original através dos links abaixo:
+
+- 📲 **[Acesse o layout do projeto no Figma aqui](https://www.figma.com/community/file/1360315496868719817)**
+- 👉 **[Acesse o site Travelgram funcionando aqui](https://alissonfa.github.io/Travelgram/)**
+
+**Para abrir no seu computador (Local):**
+1. Faça o download dos arquivos.
+2. Certifique-se de que a estrutura de pastas está correta (com a pasta `./assets/`).
+3. Dê um duplo clique no arquivo `index.html` para abrir no navegador.
 
 ---
-*Projeto desenvolvido para aprimorar habilidades de estruturação em HTML e estilização com CSS.*
+
+Feito com 💜 por **[AlissonFA](https://www.linkedin.com/in/alissonfa/)**
