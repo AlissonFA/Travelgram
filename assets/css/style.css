@@ -28,6 +28,16 @@ body {
     background-color: var(--background-color);
 }
 
+.container {
+    padding-inline: 32px; /* espaçamento das laterais (1 valor aplica para os dois lados) */
+    max-width: 1280px; /* importante para evitar que os elementos continuem aumentando quando tira o zoom */
+    margin-inline: auto; /* semelhante a padding-inline */
+}
+
+.bg-surface-color { /* foi necessário aplicar em toda a div, pois se aplicasse no nav, ao diminuir a cor sumia */
+    background-color: var(--surface-color);
+}
+
 nav {
     display: flex; /* elemento ao lado do outro */
     justify-content: space-between; /* espaçamento entre os elementos */
@@ -51,7 +61,7 @@ nav ul {
     list-style: none; /* tira os pontinhos da lista */
     display: flex;
     align-items: center;
-    gap: 20px; /* espaço */
+    gap: 24px; /* espaço entre elementos */
 
     padding-block: 8px; /* cima e baixo */
 }
